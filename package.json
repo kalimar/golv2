@@ -1,0 +1,23 @@
+{
+  "name": "golv2",
+  "version": "1.0.0",
+  "description": "OO version of Conway's Game of Life using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalimar/golv2.git"
+  },
+  "author": "Kalimar Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalimar/golv2/issues"
+  },
+  "homepage": "https://github.com/kalimar/golv2#readme",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
