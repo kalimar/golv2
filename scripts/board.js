@@ -121,10 +121,10 @@ Board.prototype.draw = function(){
   var ctx=document.getElementById('canvas').getContext('2d');
   ctx.clearRect(0,0, 610, 610);
   this.cells.map( function(cell){
-    ctx.fillStyle = 'orange';
+    ctx.fillStyle = 'red';
     ctx.fillRect(cell.position[0]*10+5, cell.position[1]*10+5, 10, 10);
     ctx.lineWidth = 1;
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'white';
     ctx.strokeRect(cell.position[0]*10+5, cell.position[1]*10+5, 10, 10);
   }, this)
 };
