@@ -4,22 +4,17 @@
   meant to operate in. The second is the cell's position
 */
 function Cell(){
-  debugger;
   this.range = arguments[0] || null;
   this.position = arguments[1] || [];
   if (this.position.length === 0) {
-    this.setPosition();
+    this.generateRandomPosition();
   }
 }
 
-Cell.prototype.setPosition = function() {
+Cell.prototype.generateRandomPosition = function() {
   this.position = [getRandomInt(this.range), getRandomInt(this.range)]
   
   function getRandomInt(range) {
     return Math.floor(Math.random() * (range));
   }
-}
-
-Cell.prototype.toroidize = function() {
-  
 }
