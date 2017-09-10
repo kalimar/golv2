@@ -5,24 +5,23 @@
   <title>OO Game of Life</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css" />
-  <style>
-    #canvas {
-      position: absolute;
-      left: 30%;
-      top: 10%;
-    }
-    footer {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
 </head>
 
 <body class="w-100 avenir bg-white">
-  <canvas id="canvas" width="610" height="610">
-    Your browser does not support the canvas element.
+  <canvas id="canvas" width="610" height="610" class="ph4 ph5-m pv5">
+        Your browser does not support the canvas element.
   </canvas>
+  <article class="bg-white">
+    <div class="ph4 ph5-m ph6-1">
+      <div class="pv5 f4 f2-ns measure center">
+        <h1 class="fw6 f1 f1 w-100 black-70 mt0 mb3">Conway's Game of Life</h1>
+        <p class="db 1h-copy black-70 serif-fw1 mv0 f4 f3-m f2-1 measure baskerville">
+          <a class="f4 fw6 black link hover-hot-pink" href="https://en.wikipedia.org/wiki/Conways_Game_of_Life">Conway's Game of Life</a> is a great way to learn a programming language. This was done in 2015 when I was getting ramped up on Javascript.
+          This is the second iteration which uses an objected oriented appproach. You can see it on <a class="f4 fw6 black link hover-hot-pink" href="https://github.com/kalimar/golv2">GitHub</a>.
+        </p>
+      </div>
+    </div>
+  </article>
   <footer class="pa3 pa4-ns">
     <div class="tc pb3">
       <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://github.com/kalimar" title="GitHub">GitHub</a>
