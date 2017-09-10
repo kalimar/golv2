@@ -97,7 +97,6 @@ describe('Board Behavior', function() {
 
     assert.equal(gameBoard.countLivingNeighbors(liveNoNeighbors.position), 0, 'no living neighbors');
     assert.equal(gameBoard.countLivingNeighbors(liveOneNeighbor.position), 1, '1 living neighbor');
-    debugger;
     assert.equal(gameBoard.countLivingNeighbors(liveThreeNeighbors.position), 3, '3 living neighbors');
     assert.equal(gameBoard.countLivingNeighbors(liveTwoNeighbors2.position), 2, '2 living neighbors');
     assert.equal(gameBoard.countLivingNeighbors(deadNoNeighborsPosition), 0, 'dead with 0 living neighbors');

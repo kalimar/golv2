@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>OO Game of Life</title>
-    <meta charset="UTF-8">
-    <style>
-      #canvas {
-        position: absolute;
-        left: 30%;
-        top: 10%;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="canvas" width="610" height="610">
-    Your browser does not support the canvas element .
+
+<head>
+  <title>OO Game of Life</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css" />
+  <style>
+    #canvas {
+      position: absolute;
+      left: 30%;
+      top: 10%;
+    }
+    footer {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body class="w-100 avenir bg-white">
+  <article>
+    <canvas id="canvas" width="610" height="610" class "vh-75 cover bg-center">
+      Your browser does not support the canvas element.
     </canvas>
-    <script type="text/javascript" src="scripts/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/board.js"></script>
-    <script type="text/javascript" src="scripts/cell.js"></script>
-    <script type="text/javascript" src="scripts/index.js"></script>
-  </body>
+  </article>
+  <footer class="pa3 pa4-ns">
+    <div class="tc pb3">
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://github.com/kalimar" title="GitHub">GitHub</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://kalimar.github.io/golv2/" title="Game Of Life">Game Of Life</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="#" title="Mapbox">MapBox</a>
+      <a class="link gray f6 f5-ns dib mr3 hover-hot-pink" href="https://www.linkedin.com/in/kalimarmaia/" title="LinkedIn">LinkedIn</a>
+      <a class="link gray f6 f5-ns dib hover-hot-pink" href="#" title="Contact">Contact</a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/board.js"></script>
+  <script type="text/javascript" src="scripts/cell.js"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+
 </html>

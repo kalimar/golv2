@@ -113,7 +113,6 @@ Board.prototype.tick = function (){
       }
     }
   }
-  debugger;
   if (this.cellsToKill.length > 0) { this.killCells(this.cellsToKill) }
   if (this.cellsToGenerate.length > 0) { this.addCells(this.cellsToGenerate) }
 }
