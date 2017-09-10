@@ -3,15 +3,23 @@
 
 <head>
   <title>OO Game of Life</title>
+  <style>
+    #canvas {
+      display: inline;
+    }
+  </style>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css" />
 </head>
 
 <body class="w-100 avenir bg-white">
-  <canvas id="canvas" width="610" height="610" class="ph4 ph5-m pv5">
-        Your browser does not support the canvas element.
-  </canvas>
-  <article class="bg-white">
+  <article class="w-100 tc pv5">
+    <canvas id="canvas" width="610" height="610" >
+          Your browser does not support the canvas element.
+    </canvas>
+  </article>
+  </article>
+    <article>
     <div class="ph4 ph5-m ph6-1">
       <div class="pv5 f4 f2-ns measure center">
         <h1 class="fw6 f1 f1 w-100 black-70 mt0 mb3">Conway's Game of Life</h1>
